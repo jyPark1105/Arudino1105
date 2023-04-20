@@ -1,7 +1,4 @@
-int Pin = 2; // a~dp -> 2~9번 pin
-int Num = 0; // 세로인덱스
-int i; // 가로인덱스
-int SwButton = 12;
+
 byte Numbers[16][8] = { // 10 8 굳이 안써도 됨. 어차피 변수값 넣을 것임
 {1,1,1,1,1,1,0,0}, // 0
 {0,1,1,0,0,0,0,0}, // 1
@@ -21,6 +18,29 @@ byte Numbers[16][8] = { // 10 8 굳이 안써도 됨. 어차피 변수값 넣을
 {1,1,0,0,1,1,1,0}  // F , 16진수 값을 7-segment에 표현하기 위해 byte 설정함
 };
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+byte Numbers[][] = {}; // pin에 들어갈 bit 선언하기
+int Pin = 2; // a~dp -> 2~9번 pin
+int Num = 0; // 세로인덱스
+int i; // 가로인덱스
+int SwButton = 12;
 
 void displayNumbers(int n) {
     for(i = 0; i < 8; i++)

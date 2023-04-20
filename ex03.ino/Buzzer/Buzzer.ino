@@ -5,9 +5,9 @@ void setup() {
   // put your setup code here, to run once:
     while(j < 3) // 총 3번의 연주가 진행됨.
     {
-        for(i = 0; i < 7; i++) // 각 주파수에 해당하는 음 7개를 부저가 연주함.
+        **for(i = 0; i < 7; i++) // 각 주파수에 해당하는 음 7개를 부저가 연주함.
         {
-        tone(6, myNotes[i], myDu[i]);
+        ** tone(6, myNotes[i], myDu[i]); // tone함수 알기
         delay(myDu[i]);
         } 
         j++;
